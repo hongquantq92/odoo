@@ -5,7 +5,7 @@ chardet==4.0.0
 cryptography==3.4.8
 decorator==4.4.2
 docutils==0.17
-ebaysdk==2.1.5
+ebaysdk==2.2
 freezegun==1.1.0
 geoip2==2.9.0
 --only-binary :all: gevent==21.8.0 ; python_version == '3.10'  # (Jammy)
