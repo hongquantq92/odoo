@@ -22,7 +22,7 @@ Pillow==9.0.1 ; python_version <= '3.10'  # min version = 7.0.0 (Focal with secu
 Pillow==9.4.0 ; python_version > '3.10'
 polib==1.1.1
 psutil==5.9.0 ; python_version <= '3.10' 
-psycopg2==2.9.2 ; sys_platform != 'win32' and python_version <= '3.10'
+--only-binary :all: psycopg2==2.9.2 ; sys_platform != 'win32' and python_version <= '3.10'
 pydot==1.4.2
 pyopenssl==21.0.0
 PyPDF2==1.26.0 ; python_version <= '3.10'
